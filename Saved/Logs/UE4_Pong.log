@@ -1,9 +1,9 @@
-﻿Log file open, 02/20/17 17:40:41
+﻿Log file open, 02/22/17 12:15:41
 LogInit:Display: Running engine for game: UE4_Pong
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1745569922) SRandInit(-1745569922).
+LogInit:Display: RandInit(516964260) SRandInit(516964260).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.066128
+LogStats: Stats thread started at 0.065741
 LogPluginManager: Loaded Plugin Paper2D, From E:/Programmes/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/Programmes/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From E:/Programmes/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -143,1024 +143,143 @@ LogInit: Base directory: E:/Programmes/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.02.20-16.40.42:158][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.20-16.40.42:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.02.20-16.40.42:163][  0]LogInit: Computer: NICOLAS-PCFIXE
-[2017.02.20-16.40.42:163][  0]LogInit: User: Nicolas
-[2017.02.20-16.40.42:163][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.02.20-16.40.42:163][  0]LogInit: High frequency timer resolution =3.914111 MHz
-[2017.02.20-16.40.42:163][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.02.20-16.40.42:163][  0]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.40.42:163][  0]LogMemory: Process Physical Memory: 265.81 MB used, 265.81 MB peak
-[2017.02.20-16.40.42:163][  0]LogMemory: Process Virtual Memory: 265.45 MB used, 265.45 MB peak
-[2017.02.20-16.40.42:163][  0]LogMemory: Physical Memory: 2743.52 MB used,  13588.93 MB free, 16332.45 MB total
-[2017.02.20-16.40.42:163][  0]LogMemory: Virtual Memory: 664.88 MB used,  13588.93 MB free, 8388608.00 MB total
-[2017.02.20-16.40.42:263][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
-[2017.02.20-16.40.42:886][  0]LogD3D11RHI: D3D11 adapters:
-[2017.02.20-16.40.43:310][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.02.20-16.40.43:310][  0]LogD3D11RHI:       8085/0/7910 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.02.20-16.40.43:310][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.02.20-16.40.43:314][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.02.20-16.40.43:314][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.02.20-16.40.43:314][  0]LogWindows: EnumDisplayDevices:
-[2017.02.20-16.40.43:314][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.02.20-16.40.43:314][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.02.20-16.40.43:314][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.02.20-16.40.43:314][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.02.20-16.40.43:314][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.02.20-16.40.43:314][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.02.20-16.40.43:314][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.02.20-16.40.43:315][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.02.20-16.40.43:315][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.02.20-16.40.43:315][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
-[2017.02.20-16.40.43:315][  0]LogD3D11RHI:      Driver Date: 2-9-2017
-[2017.02.20-16.40.43:315][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.02.20-16.40.43:712][  0]LogD3D11RHI: Async texture creation enabled
-[2017.02.20-16.40.43:735][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.02.20-16.40.43:735][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/UE4_Pong/Intermediate/Shaders/WorkingDirectory/3684/).
-[2017.02.20-16.40.43:735][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicolas/AppData/Local/Temp/UnrealShaderWorkingDir/D0802C6B4586D17A4AE353B80371AEF5/'.
-[2017.02.20-16.40.43:735][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.02.20-16.40.44:736][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.02.20-16.40.44:769][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.02.20-16.40.44:802][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.02.20-16.40.44:836][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.02.20-16.40.44:874][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.02.20-16.40.44:907][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.02.20-16.40.44:941][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.02.20-16.40.44:974][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.02.20-16.40.45:000][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.02.20-16.40.45:036][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.02.20-16.40.45:068][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.02.20-16.40.45:101][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.02.20-16.40.45:134][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.02.20-16.40.45:167][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.02.20-16.40.45:200][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.02.20-16.40.45:265][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.02.20-16.40.45:265][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.02.20-16.40.45:286][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.02.20-16.40.45:342][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.02.20-16.40.45:362][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.02.20-16.40.45:398][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.02.20-16.40.45:432][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.02.20-16.40.45:477][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.02.20-16.40.45:517][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.02.20-16.40.45:518][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.02.20-16.40.45:756][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.02.20-16.40.45:791][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/Nicolas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.02.20-16.40.45:791][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nicolas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.02.20-16.40.45:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/UE4_Pong/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.02.20-16.40.45:791][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.02.20-16.40.45:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal Projects/UE4_Pong/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.02.20-16.40.45:791][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.02.20-16.40.45:803][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.02.20-16.40.45:814][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicolas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.02.20-16.40.46:251][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.20-16.40.46:253][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.02.20-16.40.46:387][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.02.20-16.40.46:416][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.02.20-16.40.46:442][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.02.20-16.40.46:442][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.02.20-16.40.46:442][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.02.20-16.40.46:798][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: ue4_pong, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1845193093
-[2017.02.20-16.40.46:838][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
-[2017.02.20-16.40.46:861][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.012706 seconds
-[2017.02.20-16.40.46:864][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.02.20-16.40.46:864][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2017.02.20-16.40.46:864][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.02.20-16.40.46:892][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.02.20-16.40.47:283][  0]LogSlate: Using Freetype 2.6.0
-[2017.02.20-16.40.47:283][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.20-16.40.47:283][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.20-16.40.48:002][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.02.20-16.40.48:025][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.02.20-16.40.48:243][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.02.20-16.40.48:480][  0]SourceControl: Info Source control is disabled
-[2017.02.20-16.40.48:498][  0]SourceControl: Info Source control is disabled
-[2017.02.20-16.40.48:524][  0]SourceControl: Info Source control is disabled
-[2017.02.20-16.40.48:549][  0]SourceControl: Info Source control is disabled
-[2017.02.20-16.40.49:260][  0]LogEngine: Initializing Engine...
-[2017.02.20-16.40.49:261][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.02.20-16.40.49:427][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.02.20-16.40.49:436][  0]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.20-16.40.49:439][  0]LogInit: FAudioDevice initialized.
-[2017.02.20-16.40.49:456][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Nicolas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.02.20-16.40.49:459][  0]LogInit: Texture streaming: Enabled
-[2017.02.20-16.40.49:569][  0]LogInit: Transaction tracking system initialized
-[2017.02.20-16.40.49:766][  0]BlueprintLog: New page: Editor Load
-[2017.02.20-16.40.50:235][  0]LocalizationService: Info Localization service is disabled
-[2017.02.20-16.40.50:600][  0]LogConsoleResponse:Display: 
-[2017.02.20-16.40.50:720][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.02.20-16.40.50:720][  0]LogCook:Display: Mobile HDR setting 1
-[2017.02.20-16.40.50:749][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Content/' took 0.01s
-[2017.02.20-16.40.51:302][  0]SourceControl: Info Source control is disabled
-[2017.02.20-16.40.51:302][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.02.20-16.40.51:302][  0]LightingResults: New page: Lighting Build
-[2017.02.20-16.40.51:328][  0]MapCheck: New page: Map Check
-[2017.02.20-16.40.51:328][  0]LightingResults: New page: Lighting Build
-[2017.02.20-16.40.51:366][  0]LogAIModule: Creating AISystem for world Main_Menu
-[2017.02.20-16.40.51:367][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.02.20-16.40.51:367][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.02.20-16.40.51:394][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.322ms to complete.
-[2017.02.20-16.40.51:394][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.092
-[2017.02.20-16.40.51:485][  0]LogCollectionManager: Loaded 1 collections in 0.001563 seconds
-[2017.02.20-16.40.51:542][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Saved/Collections/' took 0.01s
-[2017.02.20-16.40.51:542][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Content/Developers/Nicolas/Collections/' took 0.01s
-[2017.02.20-16.40.51:542][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Content/Collections/' took 0.01s
-[2017.02.20-16.40.51:542][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
-[2017.02.20-16.40.51:542][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
-[2017.02.20-16.40.51:549][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2190 classes and 428 folders.
-[2017.02.20-16.40.51:573][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.02.20-16.40.51:573][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.02.20-16.40.51:573][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
-[2017.02.20-16.40.51:612][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.02.20-16.40.51:644][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.02.20-16.40.51:673][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.02.20-16.40.51:697][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.02.20-16.40.51:702][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.02.20-16.40.51:745][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.02.20-16.40.51:746][  0]LogLoad: (Engine Initialization) Total time: 10.94 seconds
-[2017.02.20-16.40.51:746][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
-[2017.02.20-16.40.51:746][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.02.20-16.40.51:746][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.02.20-16.40.52:084][  0]LogOcInput: OculusInput pre-init called
-[2017.02.20-16.40.52:097][  0]LogAssetRegistry: Asset discovery search completed in 5.2790 seconds
-[2017.02.20-16.40.52:097][  0]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000003 seconds (found 0 objects)
-[2017.02.20-16.40.52:097][  0]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000012 seconds (updated 0 objects)
-[2017.02.20-16.40.52:099][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.02.20-16.40.52:215][  0]LogRenderer: Reallocating scene render targets to support 1176x572 NumSamples 1 (Frame:2).
-[2017.02.20-16.41.01:169][322]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.20-16.41.01:178][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.41.01:178][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.20-16.41.01:178][322]PIE: New page: PIE session: Main_Menu (Feb 20, 2017, 6:41:01 PM)
-[2017.02.20-16.41.01:179][322]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu
-[2017.02.20-16.41.01:179][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000888s)
-[2017.02.20-16.41.01:180][322]LogAIModule: Creating AISystem for world Main_Menu
-[2017.02.20-16.41.01:180][322]LogPlayLevel: PIE: World Init took: (0.000839s)
-[2017.02.20-16.41.01:180][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu.Main_Menu to /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu (0.001868s)
-[2017.02.20-16.41.01:189][322]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.20-16.41.01:192][322]LogInit: FAudioDevice initialized.
-[2017.02.20-16.41.01:253][322]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.01:254][322]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.02.20-17.41.01
-[2017.02.20-16.41.01:254][322]LogWorld: Bringing up level for play took: 0.000604
-[2017.02.20-16.41.01:277][322]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.02.20-16.41.01:278][322]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Main_Menu 1.061
-[2017.02.20-16.41.01:279][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.41.02:046][411]LogNet: Browse: /Game/Levels/ClassicPong_Menu
-[2017.02.20-16.41.02:046][411]LogLoad: LoadMap: /Game/Levels/ClassicPong_Menu
-[2017.02.20-16.41.02:053][411]Cmd: MEM
-[2017.02.20-16.41.02:060][411]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.02:060][411]LogMemory: Process Physical Memory: 908.93 MB used, 925.72 MB peak
-[2017.02.20-16.41.02:060][411]LogMemory: Process Virtual Memory: 1178.42 MB used, 1199.91 MB peak
-[2017.02.20-16.41.02:060][411]LogMemory: Physical Memory: 3777.04 MB used,  12555.42 MB free, 16332.45 MB total
-[2017.02.20-16.41.02:060][411]LogMemory: Virtual Memory: 1918.01 MB used,  12555.42 MB free, 8388608.00 MB total
-[2017.02.20-16.41.02:060][411]LogMemory: 
-[2017.02.20-16.41.02:060][411]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.02:162][411]LogAIModule: Creating AISystem for world ClassicPong_Menu
-[2017.02.20-16.41.02:162][411]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.02:164][411]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ClassicPong_Menu.ClassicPong_Menu up for play (max tick rate 0) at 2017.02.20-17.41.02
-[2017.02.20-16.41.02:164][411]LogWorld: Bringing up level for play took: 0.001551
-[2017.02.20-16.41.02:166][411]LogLoad: Took 0.119464 seconds to LoadMap(/Game/Levels/ClassicPong_Menu)
-[2017.02.20-16.41.03:586][581]LogNet: Browse: /Game/Levels/Main_Menu
-[2017.02.20-16.41.03:586][581]LogLoad: LoadMap: /Game/Levels/Main_Menu
-[2017.02.20-16.41.03:595][581]Cmd: MEM
-[2017.02.20-16.41.03:602][581]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.03:602][581]LogMemory: Process Physical Memory: 942.61 MB used, 945.88 MB peak
-[2017.02.20-16.41.03:602][581]LogMemory: Process Virtual Memory: 1209.80 MB used, 1269.85 MB peak
-[2017.02.20-16.41.03:602][581]LogMemory: Physical Memory: 3784.98 MB used,  12547.47 MB free, 16332.45 MB total
-[2017.02.20-16.41.03:602][581]LogMemory: Virtual Memory: 1949.26 MB used,  12547.47 MB free, 8388608.00 MB total
-[2017.02.20-16.41.03:602][581]LogMemory: 
-[2017.02.20-16.41.03:602][581]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.03:602][581]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu
-[2017.02.20-16.41.03:603][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000832s)
-[2017.02.20-16.41.03:603][581]LogAIModule: Creating AISystem for world Main_Menu
-[2017.02.20-16.41.03:603][581]LogPlayLevel: PIE: World Init took: (0.000350s)
-[2017.02.20-16.41.03:603][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu.Main_Menu to /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu (0.001302s)
-[2017.02.20-16.41.03:603][581]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.03:604][581]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.02.20-17.41.03
-[2017.02.20-16.41.03:604][581]LogWorld: Bringing up level for play took: 0.000745
-[2017.02.20-16.41.03:605][581]LogLoad: Took 0.019446 seconds to LoadMap(/Game/Levels/UEDPIE_0_Main_Menu)
-[2017.02.20-16.41.04:247][658]LogNet: Browse: /Game/Levels/ClassicPong_Menu
-[2017.02.20-16.41.04:247][658]LogLoad: LoadMap: /Game/Levels/ClassicPong_Menu
-[2017.02.20-16.41.04:253][658]Cmd: MEM
-[2017.02.20-16.41.04:260][658]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.04:260][658]LogMemory: Process Physical Memory: 942.68 MB used, 945.88 MB peak
-[2017.02.20-16.41.04:260][658]LogMemory: Process Virtual Memory: 1209.78 MB used, 1269.85 MB peak
-[2017.02.20-16.41.04:260][658]LogMemory: Physical Memory: 3785.09 MB used,  12547.36 MB free, 16332.45 MB total
-[2017.02.20-16.41.04:260][658]LogMemory: Virtual Memory: 1949.26 MB used,  12547.36 MB free, 8388608.00 MB total
-[2017.02.20-16.41.04:260][658]LogMemory: 
-[2017.02.20-16.41.04:260][658]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.04:279][658]LogAIModule: Creating AISystem for world ClassicPong_Menu
-[2017.02.20-16.41.04:279][658]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.04:281][658]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ClassicPong_Menu.ClassicPong_Menu up for play (max tick rate 0) at 2017.02.20-17.41.04
-[2017.02.20-16.41.04:281][658]LogWorld: Bringing up level for play took: 0.001540
-[2017.02.20-16.41.04:283][658]LogLoad: Took 0.035955 seconds to LoadMap(/Game/Levels/ClassicPong_Menu)
-[2017.02.20-16.41.04:775][717]LogNet: Browse: /Game/Levels/ClassicPong_P1_Main
-[2017.02.20-16.41.04:775][717]LogLoad: LoadMap: /Game/Levels/ClassicPong_P1_Main
-[2017.02.20-16.41.04:783][717]Cmd: MEM
-[2017.02.20-16.41.04:789][717]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.04:789][717]LogMemory: Process Physical Memory: 939.90 MB used, 945.88 MB peak
-[2017.02.20-16.41.04:789][717]LogMemory: Process Virtual Memory: 1209.80 MB used, 1269.85 MB peak
-[2017.02.20-16.41.04:789][717]LogMemory: Physical Memory: 3785.12 MB used,  12547.33 MB free, 16332.45 MB total
-[2017.02.20-16.41.04:789][717]LogMemory: Virtual Memory: 1949.26 MB used,  12547.33 MB free, 8388608.00 MB total
-[2017.02.20-16.41.04:789][717]LogMemory: 
-[2017.02.20-16.41.04:789][717]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.04:954][717]LogAIModule: Creating AISystem for world ClassicPong_P1_Main
-[2017.02.20-16.41.04:954][717]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.04:957][717]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ClassicPong_P1_Main.ClassicPong_P1_Main up for play (max tick rate 0) at 2017.02.20-17.41.04
-[2017.02.20-16.41.04:957][717]LogWorld: Bringing up level for play took: 0.001983
-[2017.02.20-16.41.04:957][717]LogLoad: Took 0.182472 seconds to LoadMap(/Game/Levels/ClassicPong_P1_Main)
-[2017.02.20-16.41.46:884][916]LogBlueprintUserMessages: [BP_Ball_250] Left side wins
-[2017.02.20-16.41.49:881][276]LogNet: Browse: /Game/Levels/ClassicPong_P1_Main
-[2017.02.20-16.41.49:881][276]LogLoad: LoadMap: /Game/Levels/ClassicPong_P1_Main
-[2017.02.20-16.41.49:889][276]Cmd: MEM
-[2017.02.20-16.41.49:896][276]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.49:896][276]LogMemory: Process Physical Memory: 954.00 MB used, 959.05 MB peak
-[2017.02.20-16.41.49:896][276]LogMemory: Process Virtual Memory: 1220.92 MB used, 1269.96 MB peak
-[2017.02.20-16.41.49:896][276]LogMemory: Physical Memory: 3734.25 MB used,  12598.20 MB free, 16332.45 MB total
-[2017.02.20-16.41.49:896][276]LogMemory: Virtual Memory: 1957.38 MB used,  12598.20 MB free, 8388608.00 MB total
-[2017.02.20-16.41.49:896][276]LogMemory: 
-[2017.02.20-16.41.49:896][276]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.49:927][276]LogAIModule: Creating AISystem for world ClassicPong_P1_Main
-[2017.02.20-16.41.49:927][276]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.49:929][276]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ClassicPong_P1_Main.ClassicPong_P1_Main up for play (max tick rate 0) at 2017.02.20-17.41.49
-[2017.02.20-16.41.49:929][276]LogWorld: Bringing up level for play took: 0.001790
-[2017.02.20-16.41.49:930][276]LogLoad: Took 0.048874 seconds to LoadMap(/Game/Levels/ClassicPong_P1_Main)
-[2017.02.20-16.41.53:731][732]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.41.53:761][732]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.41.54:817][857]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.20-16.41.54:825][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.41.54:825][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.20-16.41.54:825][857]PIE: New page: PIE session: Main_Menu (Feb 20, 2017, 6:41:54 PM)
-[2017.02.20-16.41.54:825][857]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu
-[2017.02.20-16.41.54:826][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000855s)
-[2017.02.20-16.41.54:826][857]LogAIModule: Creating AISystem for world Main_Menu
-[2017.02.20-16.41.54:826][857]LogPlayLevel: PIE: World Init took: (0.000369s)
-[2017.02.20-16.41.54:826][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu.Main_Menu to /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu (0.001364s)
-[2017.02.20-16.41.54:835][857]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.20-16.41.54:838][857]LogInit: FAudioDevice initialized.
-[2017.02.20-16.41.54:864][857]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.54:865][857]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.02.20-17.41.54
-[2017.02.20-16.41.54:866][857]LogWorld: Bringing up level for play took: 0.000793
-[2017.02.20-16.41.54:867][857]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Main_Menu 0.649
-[2017.02.20-16.41.54:867][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.41.55:535][936]LogNet: Browse: /Game/Levels/ModernPong_Menu
-[2017.02.20-16.41.55:535][936]LogLoad: LoadMap: /Game/Levels/ModernPong_Menu
-[2017.02.20-16.41.55:544][936]Cmd: MEM
-[2017.02.20-16.41.55:550][936]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.55:550][936]LogMemory: Process Physical Memory: 955.43 MB used, 962.27 MB peak
-[2017.02.20-16.41.55:550][936]LogMemory: Process Virtual Memory: 1220.86 MB used, 1277.03 MB peak
-[2017.02.20-16.41.55:550][936]LogMemory: Physical Memory: 3739.17 MB used,  12593.28 MB free, 16332.45 MB total
-[2017.02.20-16.41.55:550][936]LogMemory: Virtual Memory: 1947.75 MB used,  12593.28 MB free, 8388608.00 MB total
-[2017.02.20-16.41.55:550][936]LogMemory: 
-[2017.02.20-16.41.55:550][936]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.55:580][936]LogAIModule: Creating AISystem for world ModernPong_Menu
-[2017.02.20-16.41.55:580][936]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.55:582][936]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ModernPong_Menu.ModernPong_Menu up for play (max tick rate 0) at 2017.02.20-17.41.55
-[2017.02.20-16.41.55:582][936]LogWorld: Bringing up level for play took: 0.001370
-[2017.02.20-16.41.55:584][936]LogLoad: Took 0.048694 seconds to LoadMap(/Game/Levels/ModernPong_Menu)
-[2017.02.20-16.41.56:346][ 27]LogNet: Browse: /Game/Levels/Main_Menu
-[2017.02.20-16.41.56:346][ 27]LogLoad: LoadMap: /Game/Levels/Main_Menu
-[2017.02.20-16.41.56:353][ 27]Cmd: MEM
-[2017.02.20-16.41.56:360][ 27]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.56:360][ 27]LogMemory: Process Physical Memory: 955.45 MB used, 963.46 MB peak
-[2017.02.20-16.41.56:360][ 27]LogMemory: Process Virtual Memory: 1220.88 MB used, 1277.03 MB peak
-[2017.02.20-16.41.56:360][ 27]LogMemory: Physical Memory: 3741.06 MB used,  12591.39 MB free, 16332.45 MB total
-[2017.02.20-16.41.56:360][ 27]LogMemory: Virtual Memory: 1947.75 MB used,  12591.39 MB free, 8388608.00 MB total
-[2017.02.20-16.41.56:360][ 27]LogMemory: 
-[2017.02.20-16.41.56:360][ 27]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.56:360][ 27]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu
-[2017.02.20-16.41.56:361][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000845s)
-[2017.02.20-16.41.56:361][ 27]LogAIModule: Creating AISystem for world Main_Menu
-[2017.02.20-16.41.56:361][ 27]LogPlayLevel: PIE: World Init took: (0.000342s)
-[2017.02.20-16.41.56:361][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu.Main_Menu to /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu (0.001307s)
-[2017.02.20-16.41.56:361][ 27]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.56:362][ 27]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.02.20-17.41.56
-[2017.02.20-16.41.56:363][ 27]LogWorld: Bringing up level for play took: 0.000763
-[2017.02.20-16.41.56:364][ 27]LogLoad: Took 0.018123 seconds to LoadMap(/Game/Levels/UEDPIE_0_Main_Menu)
-[2017.02.20-16.41.57:097][115]LogNet: Browse: /Game/Levels/ModernPong_Menu
-[2017.02.20-16.41.57:097][115]LogLoad: LoadMap: /Game/Levels/ModernPong_Menu
-[2017.02.20-16.41.57:106][115]Cmd: MEM
-[2017.02.20-16.41.57:111][115]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.57:111][115]LogMemory: Process Physical Memory: 955.44 MB used, 963.46 MB peak
-[2017.02.20-16.41.57:111][115]LogMemory: Process Virtual Memory: 1220.83 MB used, 1277.03 MB peak
-[2017.02.20-16.41.57:111][115]LogMemory: Physical Memory: 3747.71 MB used,  12584.74 MB free, 16332.45 MB total
-[2017.02.20-16.41.57:111][115]LogMemory: Virtual Memory: 1942.94 MB used,  12584.74 MB free, 8388608.00 MB total
-[2017.02.20-16.41.57:111][115]LogMemory: 
-[2017.02.20-16.41.57:111][115]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.57:127][115]LogAIModule: Creating AISystem for world ModernPong_Menu
-[2017.02.20-16.41.57:127][115]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.57:129][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ModernPong_Menu.ModernPong_Menu up for play (max tick rate 0) at 2017.02.20-17.41.57
-[2017.02.20-16.41.57:129][115]LogWorld: Bringing up level for play took: 0.001319
-[2017.02.20-16.41.57:130][115]LogLoad: Took 0.033193 seconds to LoadMap(/Game/Levels/ModernPong_Menu)
-[2017.02.20-16.41.58:489][278]LogNet: Browse: /Game/Levels/ModernPong_P1_Main
-[2017.02.20-16.41.58:489][278]LogLoad: LoadMap: /Game/Levels/ModernPong_P1_Main
-[2017.02.20-16.41.58:496][278]Cmd: MEM
-[2017.02.20-16.41.58:504][278]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.41.58:504][278]LogMemory: Process Physical Memory: 955.45 MB used, 963.46 MB peak
-[2017.02.20-16.41.58:504][278]LogMemory: Process Virtual Memory: 1220.84 MB used, 1277.03 MB peak
-[2017.02.20-16.41.58:504][278]LogMemory: Physical Memory: 3743.57 MB used,  12588.89 MB free, 16332.45 MB total
-[2017.02.20-16.41.58:504][278]LogMemory: Virtual Memory: 1942.94 MB used,  12588.89 MB free, 8388608.00 MB total
-[2017.02.20-16.41.58:504][278]LogMemory: 
-[2017.02.20-16.41.58:504][278]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.41.58:535][278]LogAIModule: Creating AISystem for world ModernPong_P1_Main
-[2017.02.20-16.41.58:535][278]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.41.58:538][278]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ModernPong_P1_Main.ModernPong_P1_Main up for play (max tick rate 0) at 2017.02.20-17.41.58
-[2017.02.20-16.41.58:538][278]LogWorld: Bringing up level for play took: 0.001992
-[2017.02.20-16.41.58:538][278]LogLoad: Took 0.049107 seconds to LoadMap(/Game/Levels/ModernPong_P1_Main)
-[2017.02.20-16.42.01:314][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.42.01:342][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.42.02:627][763]LogTemp: Repeting last play command: Selected Viewport
-[2017.02.20-16.42.02:635][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.42.02:635][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.20-16.42.02:635][763]PIE: New page: PIE session: Main_Menu (Feb 20, 2017, 6:42:02 PM)
-[2017.02.20-16.42.02:635][763]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu
-[2017.02.20-16.42.02:636][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
-[2017.02.20-16.42.02:637][763]LogAIModule: Creating AISystem for world Main_Menu
-[2017.02.20-16.42.02:637][763]LogPlayLevel: PIE: World Init took: (0.000403s)
-[2017.02.20-16.42.02:637][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu.Main_Menu to /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu (0.001602s)
-[2017.02.20-16.42.02:647][763]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.20-16.42.02:652][763]LogInit: FAudioDevice initialized.
-[2017.02.20-16.42.02:682][763]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.42.02:684][763]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.02.20-17.42.02
-[2017.02.20-16.42.02:684][763]LogWorld: Bringing up level for play took: 0.000717
-[2017.02.20-16.42.02:685][763]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Main_Menu 0.467
-[2017.02.20-16.42.02:685][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.42.03:890][906]LogNet: Browse: /Game/Levels/ModernPong_Menu
-[2017.02.20-16.42.03:890][906]LogLoad: LoadMap: /Game/Levels/ModernPong_Menu
-[2017.02.20-16.42.03:897][906]Cmd: MEM
-[2017.02.20-16.42.03:904][906]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.42.03:904][906]LogMemory: Process Physical Memory: 955.57 MB used, 963.46 MB peak
-[2017.02.20-16.42.03:904][906]LogMemory: Process Virtual Memory: 1220.84 MB used, 1277.03 MB peak
-[2017.02.20-16.42.03:904][906]LogMemory: Physical Memory: 3741.63 MB used,  12590.82 MB free, 16332.45 MB total
-[2017.02.20-16.42.03:904][906]LogMemory: Virtual Memory: 1942.94 MB used,  12590.82 MB free, 8388608.00 MB total
-[2017.02.20-16.42.03:904][906]LogMemory: 
-[2017.02.20-16.42.03:904][906]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.42.03:920][906]LogAIModule: Creating AISystem for world ModernPong_Menu
-[2017.02.20-16.42.03:920][906]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.42.03:922][906]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ModernPong_Menu.ModernPong_Menu up for play (max tick rate 0) at 2017.02.20-17.42.03
-[2017.02.20-16.42.03:923][906]LogWorld: Bringing up level for play took: 0.001323
-[2017.02.20-16.42.03:924][906]LogLoad: Took 0.033724 seconds to LoadMap(/Game/Levels/ModernPong_Menu)
-[2017.02.20-16.42.04:966][ 31]LogNet: Browse: /Game/Levels/Main_Menu
-[2017.02.20-16.42.04:966][ 31]LogLoad: LoadMap: /Game/Levels/Main_Menu
-[2017.02.20-16.42.04:973][ 31]Cmd: MEM
-[2017.02.20-16.42.04:980][ 31]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-16.42.04:980][ 31]LogMemory: Process Physical Memory: 955.57 MB used, 963.46 MB peak
-[2017.02.20-16.42.04:980][ 31]LogMemory: Process Virtual Memory: 1220.84 MB used, 1277.03 MB peak
-[2017.02.20-16.42.04:980][ 31]LogMemory: Physical Memory: 3742.12 MB used,  12590.33 MB free, 16332.45 MB total
-[2017.02.20-16.42.04:980][ 31]LogMemory: Virtual Memory: 1942.94 MB used,  12590.33 MB free, 8388608.00 MB total
-[2017.02.20-16.42.04:980][ 31]LogMemory: 
-[2017.02.20-16.42.04:980][ 31]Allocator Stats for TBB: (not implemented)
-[2017.02.20-16.42.04:980][ 31]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu
-[2017.02.20-16.42.04:981][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000846s)
-[2017.02.20-16.42.04:981][ 31]LogAIModule: Creating AISystem for world Main_Menu
-[2017.02.20-16.42.04:982][ 31]LogPlayLevel: PIE: World Init took: (0.000341s)
-[2017.02.20-16.42.04:982][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu.Main_Menu to /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu (0.001303s)
-[2017.02.20-16.42.04:982][ 31]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-16.42.04:983][ 31]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2017.02.20-17.42.04
-[2017.02.20-16.42.04:983][ 31]LogWorld: Bringing up level for play took: 0.000697
-[2017.02.20-16.42.04:984][ 31]LogLoad: Took 0.017920 seconds to LoadMap(/Game/Levels/UEDPIE_0_Main_Menu)
-[2017.02.20-16.42.27:875][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.42.27:904][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Levels/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Levels/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2017.02.20-16.43.22:825][529]LogAIModule: Creating AISystem for world ModernPong_P1_Main
-[2017.02.20-16.43.22:835][529]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.02.20-16.43.22:835][529]LightingResults: New page: Lighting Build
-[2017.02.20-16.43.22:836][529]LoadErrors: New page: Loading map: ModernPong_P1_Main.umap
-[2017.02.20-16.43.22:836][529]MapCheck: New page: Map Check
-[2017.02.20-16.43.22:836][529]LightingResults: New page: Lighting Build
-[2017.02.20-16.43.22:846][529]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.02.20-16.43.22:859][529]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.02.20-16.43.22:883][529]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.93ms to complete.
-[2017.02.20-16.43.22:883][529]LogFileHelpers: Loading map 'ModernPong_P1_Main' took 0.048
-[2017.02.20-16.43.58:615][ 16]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/Blender/pillars.fbx)
-[2017.02.20-16.43.58:727][ 16]LogFbx: ItemName: Model, ItemCount : 12
-[2017.02.20-16.43.58:727][ 16]LogFbx: ItemName: Geometry, ItemCount : 2
-[2017.02.20-16.43.58:727][ 16]LogFbx: ItemName: Material, ItemCount : 3
-[2017.02.20-16.43.58:727][ 16]LogFbx: ItemName: Pose, ItemCount : 1
-[2017.02.20-16.43.58:727][ 16]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.02.20-16.43.58:738][ 16]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/pillars.fbx
-[2017.02.20-16.43.58:820][ 16]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.44.57:999][ 16]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/pillars.fbx
-[2017.02.20-16.44.58:042][ 16]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.44.58:044][ 16]LogLinker: Can't find file '/Game/StaticMeshes/Metal_ball'
-[2017.02.20-16.44.58:044][ 16]LogLinker: Can't find file '/Game/StaticMeshes/Metal_ball'
-[2017.02.20-16.44.58:046][ 16]LogMaterial: Missing cached shader map for material Metal_ball, compiling. 
-[2017.02.20-16.44.58:080][ 16]LogFbx:Warning: Triangulating static mesh Ball
-[2017.02.20-16.44.58:350][ 16]LogLinker: Can't find file '/Game/StaticMeshes/black'
-[2017.02.20-16.44.58:350][ 16]LogLinker: Can't find file '/Game/StaticMeshes/black'
-[2017.02.20-16.44.58:352][ 16]LogMaterial: Missing cached shader map for material black, compiling. 
-[2017.02.20-16.44.58:366][ 16]LogLinker: Can't find file '/Game/StaticMeshes/pillar'
-[2017.02.20-16.44.58:366][ 16]LogLinker: Can't find file '/Game/StaticMeshes/pillar'
-[2017.02.20-16.44.58:368][ 16]LogMaterial: Missing cached shader map for material pillar, compiling. 
-[2017.02.20-16.44.58:385][ 16]LogFbx:Warning: Triangulating static mesh Pillar
-[2017.02.20-16.44.58:421][ 16]LogStaticMesh: Building static mesh pillars...
-[2017.02.20-16.44.58:817][ 16]LogStaticMesh: Built static mesh [0.40s] /Game/StaticMeshes/pillars.pillars
-[2017.02.20-16.44.58:830][ 16]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.02.20-16.45.22:720][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/pillar" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/pillar.uasset" SILENT=true
-[2017.02.20-16.45.22:729][437]LogSavePackage: Save=8.18ms
-[2017.02.20-16.45.22:729][437]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillar53CA0D774E7C88A358EBDE9202E5073C.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/pillar.uasset'
-[2017.02.20-16.45.22:731][437]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/pillar.uasset
-[2017.02.20-16.45.22:745][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Metal_ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/Metal_ball.uasset" SILENT=true
-[2017.02.20-16.45.22:753][437]LogSavePackage: Save=7.79ms
-[2017.02.20-16.45.22:753][437]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Metal_ball57509FD841DA877A0B9DE1978069878A.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/Metal_ball.uasset'
-[2017.02.20-16.45.22:761][437]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/Metal_ball.uasset
-[2017.02.20-16.45.22:773][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/black" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/black.uasset" SILENT=true
-[2017.02.20-16.45.22:782][437]LogSavePackage: Save=8.12ms
-[2017.02.20-16.45.22:782][437]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/black3B7CF2E145E44688BA40C9B0E2582FF4.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/black.uasset'
-[2017.02.20-16.45.22:784][437]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/black.uasset
-[2017.02.20-16.45.25:146][619]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:20820).
-[2017.02.20-16.45.40:540][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-16.45.40:548][941]LogSavePackage: Save=7.10ms
-[2017.02.20-16.45.40:548][941]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars45E9729C4D60F1906E240396746B242E.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-16.45.40:551][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-16.46.03:042][285]LogActorFactory: Actor Factory created pillars
-[2017.02.20-16.46.03:352][322]LogActorFactory: Actor Factory created pillars
-[2017.02.20-16.46.14:513][567]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars)
-[2017.02.20-16.46.15:238][641]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars)
-[2017.02.20-16.46.17:022][843]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars)
-[2017.02.20-16.46.17:753][925]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars)
-[2017.02.20-16.46.18:940][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pillars)
-[2017.02.20-16.49.33:034][940]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/Blender/ball.fbx)
-[2017.02.20-16.49.33:063][940]LogFbx: ItemName: Model, ItemCount : 11
-[2017.02.20-16.49.33:063][940]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.02.20-16.49.33:063][940]LogFbx: ItemName: Material, ItemCount : 1
-[2017.02.20-16.49.33:063][940]LogFbx: ItemName: Pose, ItemCount : 1
-[2017.02.20-16.49.33:063][940]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.02.20-16.49.33:067][940]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/ball.fbx
-[2017.02.20-16.49.33:117][940]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.49.38:971][940]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 ../../../../../../Documents/Blender/pillars.fbx)
-[2017.02.20-16.49.43:536][136]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/Blender/pillars.fbx)
-[2017.02.20-16.49.43:547][136]LogFbx: ItemName: Model, ItemCount : 11
-[2017.02.20-16.49.43:547][136]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.02.20-16.49.43:547][136]LogFbx: ItemName: Material, ItemCount : 2
-[2017.02.20-16.49.43:547][136]LogFbx: ItemName: Pose, ItemCount : 1
-[2017.02.20-16.49.43:547][136]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.02.20-16.49.43:551][136]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/pillars.fbx
-[2017.02.20-16.49.43:574][136]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.49.48:406][136]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/pillars.fbx
-[2017.02.20-16.49.48:430][136]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.49.48:434][136]LogMaterial: Missing cached shader map for material black, compiling. 
-[2017.02.20-16.49.48:447][136]LogMaterial: Missing cached shader map for material pillar, compiling. 
-[2017.02.20-16.49.48:458][136]LogFbx:Warning: Triangulating static mesh Pillar
-[2017.02.20-16.49.48:488][136]LogStaticMesh: Building static mesh pillars...
-[2017.02.20-16.49.48:492][136]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/pillars.pillars
-[2017.02.20-16.49.48:501][136]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.02.20-16.50.16:858][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/pillar" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/pillar.uasset" SILENT=true
-[2017.02.20-16.50.16:867][598]LogSavePackage: Save=8.32ms
-[2017.02.20-16.50.16:867][598]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillarD9EC81AE479BF49A3E22978ADE92E7D5.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/pillar.uasset'
-[2017.02.20-16.50.16:869][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/pillar.uasset
-[2017.02.20-16.50.16:880][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/black" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/black.uasset" SILENT=true
-[2017.02.20-16.50.16:888][598]LogSavePackage: Save=7.92ms
-[2017.02.20-16.50.16:888][598]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/blackBAF0720A433186804547A8B00C577A07.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/black.uasset'
-[2017.02.20-16.50.16:903][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/black.uasset
-[2017.02.20-16.50.22:014][ 92]LogActorFactory: Actor Factory created pillars
-[2017.02.20-16.50.22:605][160]LogActorFactory: Actor Factory created pillars
-[2017.02.20-16.51.19:966][536]LogSavePackage: Save=45.49ms
-[2017.02.20-16.51.19:966][536]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main200A586B4451ACD4DA7D0F9F0A7521D5.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-16.51.19:969][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-16.51.25:882][180]Cmd: DELETE
-[2017.02.20-16.51.25:882][180]Cmd: ACTOR DELETE
-[2017.02.20-16.51.25:882][180]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.02.20-16.51.25:888][180]LogEditorActor: Deleted 1 Actors (0.006 secs)
-[2017.02.20-16.52.09:761][351]LogEditorTransaction: Undo Create Capsule Collision
-[2017.02.20-16.52.10:119][376]LogEditorTransaction: Undo Create Box Collision
-[2017.02.20-16.52.10:584][414]LogEditorTransaction: Undo Remove Collision
-[2017.02.20-16.52.11:176][467]LogEditorTransaction: Undo Create Sphere Collision
-[2017.02.20-16.52.43:066][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-16.52.43:073][176]LogSavePackage: Save=6.62ms
-[2017.02.20-16.52.43:073][176]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars9232FFD0408F4D732E80F09DAC6B3DE5.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-16.52.43:075][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-16.53.48:669][783]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 111 classes and 0 folders.
-[2017.02.20-16.53.51:201][969]BlueprintLog: New page: Compile BP_Pillar
-[2017.02.20-16.54.07:049][599]BlueprintLog: New page: Compile BP_Pillar
-[2017.02.20-16.54.07:571][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pillar" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Pillar.uasset" SILENT=true
-[2017.02.20-16.54.07:582][642]LogSavePackage: Save=9.82ms
-[2017.02.20-16.54.07:582][642]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Pillar711AC5F84AEE962772F319AA15448FC4.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Pillar.uasset'
-[2017.02.20-16.54.07:584][642]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Pillar.uasset
-[2017.02.20-16.54.16:486][550]LogSavePackage: Save=62.46ms
-[2017.02.20-16.54.16:486][550]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main3FB086E143AFB349B5B17DB969B815D2.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-16.54.16:489][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-16.54.19:832][731]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/Blender/ball.fbx)
-[2017.02.20-16.54.19:859][731]LogFbx: ItemName: Model, ItemCount : 11
-[2017.02.20-16.54.19:859][731]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.02.20-16.54.19:859][731]LogFbx: ItemName: Material, ItemCount : 1
-[2017.02.20-16.54.19:859][731]LogFbx: ItemName: Pose, ItemCount : 1
-[2017.02.20-16.54.19:859][731]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.02.20-16.54.19:863][731]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/ball.fbx
-[2017.02.20-16.54.19:900][731]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.54.26:600][731]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/ball.fbx
-[2017.02.20-16.54.26:643][731]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.54.26:645][731]LogFbx: =================================================
-[2017.02.20-16.54.26:645][731]LogFbx: Dumping Node START [Ball] 
-[2017.02.20-16.54.26:645][731]LogFbx: 	Total Deformer Count 1470962640.
-[2017.02.20-16.54.26:645][731]LogFbx: 	Attribute () Type (4).
-[2017.02.20-16.54.26:645][731]LogFbx: 		[Node Attribute Child 1] Ball (Type Mesh).
-[2017.02.20-16.54.26:645][731]LogFbx: Dumping Node END [Ball]
-[2017.02.20-16.54.26:645][731]LogFbx: =================================================
-[2017.02.20-16.54.26:645][731]LogFbx: Dumping Node START [Ball] 
-[2017.02.20-16.54.26:645][731]LogFbx: 	Total Deformer Count 1470958848.
-[2017.02.20-16.54.26:645][731]LogFbx: 	Attribute () Type (4).
-[2017.02.20-16.54.26:645][731]LogFbx: 		[Node Attribute Child 1] Ball (Type Mesh).
-[2017.02.20-16.54.26:645][731]LogFbx: Dumping Node END [Ball]
-[2017.02.20-16.54.26:652][731]LogMaterial:Warning: Material /Game/StaticMeshes/Metal_ball.Metal_ball needed to have new flag set bUsedWithSkeletalMesh !
-[2017.02.20-16.54.26:654][731]LogMaterial: Missing cached shader map for material Metal_ball, compiling. 
-[2017.02.20-16.54.26:682][731]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.02.20-16.54.26:684][731]LogMaterial: Missing cached shader map for material Metal_ball, compiling. 
-[2017.02.20-16.54.26:712][731]LogFbx: Triangulating skeletal mesh Ball
-[2017.02.20-16.54.26:997][731]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
-[2017.02.20-16.54.27:091][731]LogSkeletalMesh: Section 0: 1986 vertices, 1 active bones
-[2017.02.20-16.54.27:804][731]LogSkeletalMesh: Section 0: Material=0, 3968 triangles
-[2017.02.20-16.54.27:806][731]LogLinker: Can't find file '/Game/StaticMeshes/ball_PhysicsAsset'
-[2017.02.20-16.54.27:806][731]LogLinker: Can't find file '/Game/StaticMeshes/ball_PhysicsAsset'
-[2017.02.20-16.54.27:807][731]LogLinker: Can't find file '/Game/StaticMeshes/ball_Skeleton'
-[2017.02.20-16.54.27:807][731]LogLinker: Can't find file '/Game/StaticMeshes/ball_Skeleton'
-[2017.02.20-16.54.27:810][731]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.02.20-16.54.27:810][731]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
-[2017.02.20-16.54.27:810][731]FBXImport:Warning: Warning Mesh 'Ball' has no UV set. Creating a default set. 
-[2017.02.20-16.54.45:945][655]Cmd: DELETE
-[2017.02.20-16.54.45:945][655]Cmd: ACTOR DELETE
-[2017.02.20-16.54.45:945][655]LogEditorActor: Deleted Actor: SkeletalMeshActor
-[2017.02.20-16.54.45:955][655]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.02.20-16.55.01:502][717]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Documents/Blender/ball.fbx)
-[2017.02.20-16.55.01:539][717]LogFbx: ItemName: Model, ItemCount : 11
-[2017.02.20-16.55.01:539][717]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.02.20-16.55.01:539][717]LogFbx: ItemName: Material, ItemCount : 1
-[2017.02.20-16.55.01:539][717]LogFbx: ItemName: Pose, ItemCount : 1
-[2017.02.20-16.55.01:539][717]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.02.20-16.55.01:545][717]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/ball.fbx
-[2017.02.20-16.55.01:583][717]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.55.05:859][717]LogFbx: Loading FBX Scene from ../../../../../../Documents/Blender/ball.fbx
-[2017.02.20-16.55.05:896][717]LogFbx: FBX Scene Loaded Succesfully
-[2017.02.20-16.55.05:898][717]LogLinker: Can't find file '/Game/StaticMeshes/Metal_ball'
-[2017.02.20-16.55.05:899][717]LogLinker: Can't find file '/Game/StaticMeshes/Metal_ball'
-[2017.02.20-16.55.05:901][717]LogMaterial: Missing cached shader map for material Metal_ball, compiling. 
-[2017.02.20-16.55.05:912][717]LogFbx:Warning: Triangulating static mesh Ball
-[2017.02.20-16.55.06:178][717]LogStaticMesh: Building static mesh ball...
-[2017.02.20-16.55.06:911][717]LogStaticMesh: Built static mesh [0.73s] /Game/StaticMeshes/ball.ball
-[2017.02.20-16.55.06:918][717]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2017.02.20-16.55.06:918][717]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
-[2017.02.20-16.55.28:375][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Metal_ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/Metal_ball.uasset" SILENT=true
-[2017.02.20-16.55.28:383][669]LogSavePackage: Save=7.94ms
-[2017.02.20-16.55.28:383][669]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Metal_ballDB19E04443402935D22EFF884A6175D3.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/Metal_ball.uasset'
-[2017.02.20-16.55.28:386][669]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/Metal_ball.uasset
-[2017.02.20-16.56.08:241][419]LogStaticMesh: Building static mesh ball...
-[2017.02.20-16.56.08:287][419]LogStaticMesh: Built static mesh [0.05s] /Game/StaticMeshes/ball.ball
-[2017.02.20-16.57.23:124][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset" SILENT=true
-[2017.02.20-16.57.23:132][759]LogSavePackage: Save=7.64ms
-[2017.02.20-16.57.23:132][759]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ball61CA2A394E9180148C7AA8819A0BBDA2.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset'
-[2017.02.20-16.57.23:135][759]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset
-[2017.02.20-16.57.29:284][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset" SILENT=true
-[2017.02.20-16.57.29:289][197]LogSavePackage: Save=1.57ms
-[2017.02.20-16.57.29:289][197]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ballCF58EB424441AC85DB6E918D31EDB3E3.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset'
-[2017.02.20-16.57.29:291][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset
-[2017.02.20-16.57.31:318][356]LogActorFactory: Actor Factory created ball
-[2017.02.20-16.57.31:787][412]LogActorFactory: Actor Factory created ball
-[2017.02.20-16.57.32:764][526]Cmd: DELETE
-[2017.02.20-16.57.32:764][526]Cmd: ACTOR DELETE
-[2017.02.20-16.57.32:764][526]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.02.20-16.57.32:774][526]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.02.20-16.57.42:694][282]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Pillar_C_1' or package '/Engine/Transient'.
-[2017.02.20-16.57.42:694][282]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Pillar_C_0' or package '/Engine/Transient'.
-[2017.02.20-16.57.42:694][282]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BP_Pillar_C_142' or package '/Engine/Transient'.
-[2017.02.20-16.57.42:694][282]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BP_Pillar_C_141' or package '/Engine/Transient'.
-[2017.02.20-17.01.09:493][670]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
-[2017.02.20-17.01.10:132][670]LogRenderer: Reallocating scene render targets to support 1432x1072 NumSamples 1 (Frame:134586).
-[2017.02.20-17.01.38:659][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main' with GeneratedClass '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main_C' with ClassGeneratedBy '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main'
-[2017.02.20-17.01.38:659][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.20-17.01.38:659][958]PIE: New page: SIE session: ModernPong_P1_Main (Feb 20, 2017, 7:01:38 PM)
-[2017.02.20-17.01.38:659][958]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ModernPong_P1_Main
-[2017.02.20-17.01.38:660][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001235s)
-[2017.02.20-17.01.38:661][958]LogAIModule: Creating AISystem for world ModernPong_P1_Main
-[2017.02.20-17.01.38:661][958]LogPlayLevel: PIE: World Init took: (0.000412s)
-[2017.02.20-17.01.38:661][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main to /Game/Levels/UEDPIE_0_ModernPong_P1_Main.ModernPong_P1_Main (0.001775s)
-[2017.02.20-17.01.38:676][958]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.20-17.01.38:680][958]LogInit: FAudioDevice initialized.
-[2017.02.20-17.01.38:711][958]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-17.01.38:713][958]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ModernPong_P1_Main.ModernPong_P1_Main up for play (max tick rate 0) at 2017.02.20-18.01.38
-[2017.02.20-17.01.38:714][958]LogWorld: Bringing up level for play took: 0.000947
-[2017.02.20-17.01.38:714][958]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_ModernPong_P1_Main 0.482
-[2017.02.20-17.01.38:757][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main' with GeneratedClass '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main_C' with ClassGeneratedBy '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main'
-[2017.02.20-17.02.10:689][ 57]LogBlueprintUserMessages: [BP_Ball_250] Left side wins
-[2017.02.20-17.02.13:705][372]LogNet: Browse: /Game/Levels/ClassicPong_P1_Main
-[2017.02.20-17.02.13:705][372]LogLoad: LoadMap: /Game/Levels/ClassicPong_P1_Main
-[2017.02.20-17.02.13:716][372]Cmd: MEM
-[2017.02.20-17.02.13:725][372]LogMemory: Platform Memory Stats for Windows
-[2017.02.20-17.02.13:725][372]LogMemory: Process Physical Memory: 1467.16 MB used, 1500.94 MB peak
-[2017.02.20-17.02.13:725][372]LogMemory: Process Virtual Memory: 2879.39 MB used, 3140.17 MB peak
-[2017.02.20-17.02.13:725][372]LogMemory: Physical Memory: 4311.13 MB used,  12021.33 MB free, 16332.45 MB total
-[2017.02.20-17.02.13:725][372]LogMemory: Virtual Memory: 3621.12 MB used,  12021.33 MB free, 8388608.00 MB total
-[2017.02.20-17.02.13:725][372]LogMemory: 
-[2017.02.20-17.02.13:725][372]Allocator Stats for TBB: (not implemented)
-[2017.02.20-17.02.13:757][372]LogAIModule: Creating AISystem for world ClassicPong_P1_Main
-[2017.02.20-17.02.13:757][372]LogLoad: Game class is 'BP_Pong_GameMode_C'
-[2017.02.20-17.02.13:760][372]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ClassicPong_P1_Main.ClassicPong_P1_Main up for play (max tick rate 0) at 2017.02.20-18.02.13
-[2017.02.20-17.02.13:760][372]LogWorld: Bringing up level for play took: 0.002149
-[2017.02.20-17.02.13:760][372]LogLoad: Took 0.055593 seconds to LoadMap(/Game/Levels/ClassicPong_P1_Main)
-[2017.02.20-17.02.20:651][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main' with GeneratedClass '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main_C' with ClassGeneratedBy '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main'
-[2017.02.20-17.02.20:684][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main' with GeneratedClass '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main_C' with ClassGeneratedBy '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main'
-[2017.02.20-17.02.37:644][390]LogStaticMesh: Building static mesh pillars...
-[2017.02.20-17.02.37:648][390]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/pillars.pillars
-[2017.02.20-17.06.09:960][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-17.06.09:972][950]LogSavePackage: Save=7.85ms
-[2017.02.20-17.06.09:972][950]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars4324A32240C5D2DB42F7398E4B222913.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-17.06.09:997][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-17.06.19:062][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-17.06.19:066][675]LogSavePackage: Save=1.59ms
-[2017.02.20-17.06.19:066][675]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillarsE644C1014AF63252720337A9EB302429.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-17.06.19:067][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-17.06.21:779][914]LogActorFactory: Actor Factory created pillars
-[2017.02.20-17.06.22:563][  7]LogActorFactory: Actor Factory created pillars
-[2017.02.20-17.06.35:366][277]LogEditorViewport: Clicking Background
-[2017.02.20-17.06.37:543][538]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars2)
-[2017.02.20-17.06.40:271][827]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars2)
-[2017.02.20-17.07.16:686][700]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars2)
-[2017.02.20-17.07.17:569][795]LogEditorViewport: Clicking Background
-[2017.02.20-17.07.20:785][172]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars2)
-[2017.02.20-17.08.00:382][395]LogSavePackage: Save=62.27ms
-[2017.02.20-17.08.00:382][395]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main_Auto1BDA4E4EF45C9A5467E49C1AB1EF3E070.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Levels/ModernPong_P1_Main_Auto1.umap'
-[2017.02.20-17.08.00:385][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Levels/ModernPong_P1_Main_Auto1.umap
-[2017.02.20-17.08.00:386][395]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/ModernPong_P1_Main' took 0.080
-[2017.02.20-17.08.00:386][395]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.080
-[2017.02.20-17.08.00:389][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/black" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/black_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.02.20-17.08.00:390][395]LogSavePackage: Save=0.55ms
-[2017.02.20-17.08.00:390][395]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/black_Auto1DBEBD585479ADCCD40DBBE86A03ACADE.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/black_Auto1.uasset'
-[2017.02.20-17.08.00:392][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/black_Auto1.uasset
-[2017.02.20-17.08.00:392][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillar" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/pillar_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.02.20-17.08.00:393][395]LogSavePackage: Save=0.48ms
-[2017.02.20-17.08.00:393][395]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillar_Auto1583D76984669EBEECBF335A30659A9AE.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/pillar_Auto1.uasset'
-[2017.02.20-17.08.00:394][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/pillar_Auto1.uasset
-[2017.02.20-17.08.00:395][395]LogSavePackage: Save=0.43ms
-[2017.02.20-17.08.00:395][395]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Metal_ball_Auto140ABE24E4188D82095472B95A28EAF7B.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/Metal_ball_Auto1.uasset'
-[2017.02.20-17.08.00:397][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/StaticMeshes/Metal_ball_Auto1.uasset
-[2017.02.20-17.08.00:397][395]LogFileHelpers: Auto-saving content packages took 0.008
-[2017.02.20-17.08.33:891][  5]Cmd: DELETE
-[2017.02.20-17.08.33:891][  5]Cmd: ACTOR DELETE
-[2017.02.20-17.08.33:891][  5]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.02.20-17.08.33:905][  5]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.02.20-17.08.35:925][230]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.02.20-17.08.35:935][230]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.02.20-17.08.36:959][353]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
-[2017.02.20-17.09.58:553][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-17.09.58:563][158]LogSavePackage: Save=7.69ms
-[2017.02.20-17.09.58:563][158]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars359919F147865902BDAD1E97BE2591DC.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-17.09.58:566][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-17.10.07:210][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-17.10.07:220][861]LogSavePackage: Save=7.59ms
-[2017.02.20-17.10.07:220][861]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars203C7B1140A714ED64D3F0B3FA97BF1D.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-17.10.07:222][861]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-17.10.17:438][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-17.10.17:448][810]LogSavePackage: Save=7.55ms
-[2017.02.20-17.10.17:448][810]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillarsCAF52518406BCC4AA40953B84F058856.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-17.10.17:450][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-17.10.38:460][937]LogActorFactory: Actor Factory created ball
-[2017.02.20-17.10.38:999][993]LogActorFactory: Actor Factory created ball
-[2017.02.20-17.11.45:474][  1]LogSavePackage: Save=63.78ms
-[2017.02.20-17.11.45:474][  1]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main294AB5164CD557941A5D038490287071.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-17.11.45:476][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-17.14.07:398][744]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
-[2017.02.20-17.14.08:728][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ball)
-[2017.02.20-17.15.01:575][326]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.02.20-17.15.01:584][326]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.02.20-17.15.25:708][928]LogStaticMesh: Building static mesh ball...
-[2017.02.20-17.15.25:752][928]LogStaticMesh: Built static mesh [0.04s] /Game/StaticMeshes/ball.ball
-[2017.02.20-17.15.28:303][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset" SILENT=true
-[2017.02.20-17.15.28:313][ 94]LogSavePackage: Save=7.33ms
-[2017.02.20-17.15.28:313][ 94]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ball80BA646545E8A00C81208D853048AFC0.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset'
-[2017.02.20-17.15.28:316][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset
-[2017.02.20-17.17.04:548][333]LogActorFactory: Actor Factory created ball
-[2017.02.20-17.17.05:496][444]LogActorFactory: Actor Factory created ball
-[2017.02.20-17.17.47:519][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset" SILENT=true
-[2017.02.20-17.17.47:523][ 25]LogSavePackage: Save=1.52ms
-[2017.02.20-17.17.47:523][ 25]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ballBAC2C2AB41484C8F90B0F09A1C398EEA.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset'
-[2017.02.20-17.17.47:524][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset
-[2017.02.20-17.17.53:261][ 59]LogStaticMesh: Building static mesh ball...
-[2017.02.20-17.17.53:375][ 59]LogStaticMesh: Built static mesh [0.11s] /Game/StaticMeshes/ball.ball
-[2017.02.20-17.18.08:613][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset" SILENT=true
-[2017.02.20-17.18.08:623][202]LogSavePackage: Save=7.49ms
-[2017.02.20-17.18.08:623][202]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ballE36E460B417DF666FB01488590DB8DA5.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset'
-[2017.02.20-17.18.08:625][202]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset
-[2017.02.20-17.18.12:316][258]LogStaticMesh: Building static mesh ball...
-[2017.02.20-17.18.12:407][258]LogStaticMesh: Built static mesh [0.09s] /Game/StaticMeshes/ball.ball
-[2017.02.20-17.18.54:504][696]LogEditorViewport: Clicking on Actor (context menu): TextRenderActor (P2_Score_Text)
-[2017.02.20-17.19.01:190][407]LogEditorViewport: Clicking on Actor (context menu): TextRenderActor (P1_Score_Text)
-[2017.02.20-17.19.07:132][ 28]LogSavePackage: Save=64.35ms
-[2017.02.20-17.19.07:132][ 28]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main8EE577874C5BFFC3651D41A0A75F8A84.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-17.19.07:135][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-17.19.07:464][ 61]LogEditorViewport: Clicking Background
-[2017.02.20-17.21.18:992][329]LogEditorActor: Deleted Actor: BP_Ball_C
-[2017.02.20-17.21.19:007][329]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2017.02.20-17.21.22:450][705]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.02.20-17.21.22:460][705]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2017.02.20-17.21.25:997][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/ball" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset" SILENT=true
-[2017.02.20-17.21.26:008][983]LogSavePackage: Save=7.37ms
-[2017.02.20-17.21.26:008][983]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ball4291D3034DC4B2E542765B90D027BD31.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset'
-[2017.02.20-17.21.26:010][983]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/ball.uasset
-[2017.02.20-17.21.29:855][332]LogSavePackage: Save=61.20ms
-[2017.02.20-17.21.29:855][332]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_MainE5384E0245F88F533D9F68868464B855.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-17.21.29:857][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-17.24.38:599][483]BlueprintLog: New page: Compile BP_ModernBall
-[2017.02.20-17.24.39:665][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ModernBall" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_ModernBall.uasset" SILENT=true
-[2017.02.20-17.24.39:677][569]LogSavePackage: Save=10.68ms
-[2017.02.20-17.24.39:677][569]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_ModernBall376E3BF146CA442C985144BD89825C30.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_ModernBall.uasset'
-[2017.02.20-17.24.39:679][569]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_ModernBall.uasset
-[2017.02.20-17.26.53:338][455]LogBlueprint:Warning: [BP_ModernBall] 'rPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:338][455]LogBlueprint:Warning: [BP_ModernBall] 'rPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:338][455]LogBlueprint:Warning: [BP_ModernBall] 'rPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:338][455]LogBlueprint:Warning: [BP_ModernBall] 'lPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:338][455]LogBlueprint:Warning: [BP_ModernBall] 'rPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'lPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'lPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'lPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'rPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'lPlayer_Score' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'bGameOver' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'bGameOver' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'bGameOver' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'bGameOver' variable not found. Base class was probably changed.
-[2017.02.20-17.26.53:339][455]LogBlueprint:Warning: [BP_ModernBall] 'bGameOver' variable not found. Base class was probably changed.
-[2017.02.20-17.27.01:588][261]BlueprintLog: New page: Compile BP_ModernBall
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "bGameOver" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_109
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "bGameOver" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_22
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "bGameOver" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_24
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_94
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_51
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_23
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_134
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_295
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_197
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_194
-[2017.02.20-17.27.01:618][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_1
-[2017.02.20-17.27.01:619][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:619][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:619][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  bGameOver  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  bGameOver  could not be found
-[2017.02.20-17.27.01:620][261]LogBlueprint:Error: [Compiler BP_ModernBall] Error The property associated with  bGameOver  could not be found
-[2017.02.20-17.27.01:679][261]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bGameOver" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_109
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bGameOver" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_22
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bGameOver" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_24
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_94
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_51
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_23
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_134
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_295
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "lPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_197
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableGet_194
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "rPlayer_Score" in 'BP_ModernBall_C'.
-Make sure 'BP_ModernBall_C' has been compiled for  K2Node_VariableSet_1
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  rPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  lPlayer_Score  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  bGameOver  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  bGameOver  could not be found
-[2017.02.20-17.27.01:828][261]BlueprintEditorCompileResults:Error: Error The property associated with  bGameOver  could not be found
-[2017.02.20-17.27.01:828][261]LogBlueprint:Warning: [Compiler BP_ModernBall] Warning [2780.99] Compile of BP_ModernBall failed. 11 Fatal Issue(s) 11 Warning(s) [in 239 ms] (/Game/Blueprints/BP_ModernBall.BP_ModernBall)
-[2017.02.20-17.31.36:644][827]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/ModernPong_P1_Main' took 0.011
-[2017.02.20-17.31.36:644][827]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_ModernBall] ([1] browsable assets)...
-[2017.02.20-17.31.36:654][827]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_ModernBall.BP_ModernBall]
-[2017.02.20-17.31.36:654][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ModernBall]
-[2017.02.20-17.31.36:697][827]LogSavePackage: Save=39.44ms
-[2017.02.20-17.31.36:697][827]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_ModernBall_Auto2C2501F5A452D483EB228EE9E39C858C0.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Blueprints/BP_ModernBall_Auto2.uasset'
-[2017.02.20-17.31.36:699][827]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Blueprints/BP_ModernBall_Auto2.uasset
-[2017.02.20-17.31.36:699][827]LogFileHelpers: Auto-saving content packages took 0.055
-[2017.02.20-17.31.49:067][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ModernBall" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_ModernBall.uasset" SILENT=true
-[2017.02.20-17.31.49:104][279]LogSavePackage: Save=34.83ms
-[2017.02.20-17.31.49:104][279]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_ModernBall4A4C9AA443B0408B9C0AC7931ECA6BA7.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_ModernBall.uasset'
-[2017.02.20-17.31.49:107][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_ModernBall.uasset
-[2017.02.20-17.31.49:905][364]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.02.20-17.32.10:180][779]LogEditorViewport: Clicking on Actor (context menu): BP_Horizontal_Boundary_C (BP_Horizontal_Boundary)
-[2017.02.20-17.32.16:759][463]LogEditorActor: Deleted Actor: BP_Horizontal_Boundary_C
-[2017.02.20-17.32.16:763][463]LogEditorActor: Deleted Actor: BP_Horizontal_Boundary_C
-[2017.02.20-17.32.16:773][463]LogEditorActor: Deleted 2 Actors (0.014 secs)
-[2017.02.20-17.37.55:332][267]LogEditorViewport: Clicking on Actor (context menu): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.37.56:088][349]LogEditorViewport: Clicking Background
-[2017.02.20-17.37.57:741][547]LogEditorViewport: Clicking on Actor (context menu): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.37.59:291][717]LogEditorViewport: Clicking Background
-[2017.02.20-17.38.00:527][865]LogEditorViewport: Clicking on Actor (LMB): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.38.01:060][922]Cmd: DELETE
-[2017.02.20-17.38.01:060][922]Cmd: ACTOR DELETE
-[2017.02.20-17.38.01:061][922]LogEditorActor: Deleted Actor: BP_R_Goal_C
-[2017.02.20-17.38.01:074][922]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2017.02.20-17.38.03:374][198]Cmd: TRANSACTION UNDO
-[2017.02.20-17.38.03:374][198]LogEditorTransaction: Undo Delete Actors
-[2017.02.20-17.39.18:923][249]LogMaterial: Missing cached shader map for material M_unlitWhite, compiling. 
-[2017.02.20-17.39.19:041][249]LogMaterial: Missing cached shader map for material M_unlitWhite, compiling. 
-[2017.02.20-17.39.19:044][249]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.02.20-17.39.19:365][265]MaterialEditorStats: Info Base pass shader without light map: 8 instructions
-[2017.02.20-17.39.19:365][265]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.02.20-17.39.19:365][265]MaterialEditorStats: Info Texture samplers: 0/16
-[2017.02.20-17.41.29:007][484]LogMaterial: Missing cached shader map for material M_unlitWhite_2, compiling. 
-[2017.02.20-17.41.47:834][967]LogMaterial: Missing cached shader map for material M_unlitWhite_2, compiling. 
-[2017.02.20-17.41.47:859][967]LogMaterial: Missing cached shader map for material M_unlitWhite_2, compiling. 
-[2017.02.20-17.41.47:861][967]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.02.20-17.41.48:144][991]MaterialEditorStats: Info Base pass shader without light map: 8 instructions
-[2017.02.20-17.41.48:144][991]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.02.20-17.41.48:144][991]MaterialEditorStats: Info Texture samplers: 0/16
-[2017.02.20-17.42.20:128][445]LogSavePackage: Save=63.51ms
-[2017.02.20-17.42.20:128][445]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main_Auto3C22594A7452770C20BEEC08C51A186E9.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Levels/ModernPong_P1_Main_Auto3.umap'
-[2017.02.20-17.42.20:130][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Levels/ModernPong_P1_Main_Auto3.umap
-[2017.02.20-17.42.20:131][445]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/ModernPong_P1_Main' took 0.081
-[2017.02.20-17.42.20:131][445]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.081
-[2017.02.20-17.42.20:133][445]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Invisible_R_Goal] ([1] browsable assets)...
-[2017.02.20-17.42.20:143][445]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Invisible_R_Goal.BP_Invisible_R_Goal]
-[2017.02.20-17.42.20:143][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Invisible_R_Goal]
-[2017.02.20-17.42.20:154][445]LogSavePackage: Save=10.26ms
-[2017.02.20-17.42.20:154][445]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Invisible_R_Goal_Auto3F33CA532464C4A1EFD463A9DC5CE15F0.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Blueprints/BP_Invisible_R_Goal_Auto3.uasset'
-[2017.02.20-17.42.20:162][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Blueprints/BP_Invisible_R_Goal_Auto3.uasset
-[2017.02.20-17.42.20:162][445]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_unlitWhite_2] ([1] browsable assets)...
-[2017.02.20-17.42.20:171][445]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_unlitWhite_2.M_unlitWhite_2]
-[2017.02.20-17.42.20:171][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_unlitWhite_2]
-[2017.02.20-17.42.20:178][445]LogSavePackage: Save=6.16ms
-[2017.02.20-17.42.20:178][445]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/M_unlitWhite_2_Auto321C4BF384A6E0E5D7136BBBF554C9056.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Materials/M_unlitWhite_2_Auto3.uasset'
-[2017.02.20-17.42.20:180][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/Autosaves/Game/Materials/M_unlitWhite_2_Auto3.uasset
-[2017.02.20-17.42.20:180][445]LogFileHelpers: Auto-saving content packages took 0.047
-[2017.02.20-17.44.11:096][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_ModernGoal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/M_ModernGoal.uasset" SILENT=true
-[2017.02.20-17.44.11:103][667]LogSavePackage: Save=6.09ms
-[2017.02.20-17.44.11:103][667]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/M_ModernGoal5CF98A464C3E5CB2ADC556BCA785559E.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/M_ModernGoal.uasset'
-[2017.02.20-17.44.11:105][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Materials/M_ModernGoal.uasset
-[2017.02.20-17.44.13:000][845]LogMaterial: Missing cached shader map for material M_ModernGoal, compiling. 
-[2017.02.20-17.44.13:038][845]LogMaterial: Missing cached shader map for material M_ModernGoal, compiling. 
-[2017.02.20-17.44.13:040][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.02.20-17.44.13:369][874]MaterialEditorStats: Info Base pass shader without light map: 8 instructions
-[2017.02.20-17.44.13:369][874]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.02.20-17.44.13:369][874]MaterialEditorStats: Info Texture samplers: 0/16
-[2017.02.20-17.45.15:005][236]Cmd: DELETE
-[2017.02.20-17.45.15:005][236]Cmd: ACTOR DELETE
-[2017.02.20-17.45.15:005][236]LogEditorActor: Deleted Actor: BP_ModernBall_C
-[2017.02.20-17.45.15:016][236]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.02.20-17.45.18:795][602]LogActorFactory: Actor Factory created ball
-[2017.02.20-17.45.19:335][666]LogActorFactory: Actor Factory created ball
-[2017.02.20-17.45.22:380][  0]Cmd: DELETE
-[2017.02.20-17.45.22:380][  0]Cmd: ACTOR DELETE
-[2017.02.20-17.45.22:380][  0]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.02.20-17.45.22:394][  0]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.02.20-17.46.13:646][  6]BlueprintLog: New page: Compile BP_Invisible_R_Goal
-[2017.02.20-17.46.14:229][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Invisible_R_Goal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Invisible_R_Goal.uasset" SILENT=true
-[2017.02.20-17.46.14:240][ 49]LogSavePackage: Save=10.67ms
-[2017.02.20-17.46.14:240][ 49]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Invisible_R_Goal19678B844DF71D487602848618F2445D.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Invisible_R_Goal.uasset'
-[2017.02.20-17.46.14:247][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Invisible_R_Goal.uasset
-[2017.02.20-17.46.26:583][345]LogSavePackage: Save=63.28ms
-[2017.02.20-17.46.26:583][345]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_MainEA9701374D7A92B6FFF44A8A083A6ACC.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-17.46.26:586][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-17.46.51:244][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.02.20-17.47.55:963][755]LogEditorViewport: Clicking on Actor (LMB): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.47.57:783][945]LogEditorViewport: Clicking on Actor (LMB): BP_R_Goal_C (BP_R_Goal2)
-[2017.02.20-17.48.31:025][363]LogEditorViewport: Clicking on Actor (LMB): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.48.45:672][807]LogEditorViewport: Clicking on Actor (LMB): BP_R_Goal_C (BP_R_Goal2)
-[2017.02.20-17.48.59:201][291]LogEditorViewport: Clicking on Actor (LMB): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.51.36:888][939]LogEditorViewport: Clicking on Actor (context menu): BP_R_Goal_C (BP_R_Goal2)
-[2017.02.20-17.51.38:081][ 61]LogEditorViewport: Clicking on Actor (LMB): BP_R_Goal_C (BP_R_Goal2)
-[2017.02.20-17.51.44:168][694]LogEditorViewport: Clicking on Actor (context menu): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.51.54:357][735]LogEditorViewport: Clicking on Actor (context menu): BP_R_Goal_C (BP_R_Goal2)
-[2017.02.20-17.51.56:279][926]LogEditorActor: Deleted Actor: BP_R_Goal_C
-[2017.02.20-17.51.56:293][926]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.02.20-17.52.12:032][570]LogMetaData: Removing '/Game/Blueprints/BP_Modern_R_Goal.BP_Modern_R_Goal:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_Invisible_R_Goal.PackageMetaData'
-[2017.02.20-17.52.12:032][570]LogMetaData: Removing '/Game/Blueprints/BP_Modern_R_Goal.SKEL_BP_Modern_R_Goal_C' ref from Metadata '/Game/Blueprints/BP_Invisible_R_Goal.PackageMetaData'
-[2017.02.20-17.52.12:032][570]LogMetaData: Removing '/Game/Blueprints/BP_Modern_R_Goal.BP_Modern_R_Goal_C' ref from Metadata '/Game/Blueprints/BP_Invisible_R_Goal.PackageMetaData'
-[2017.02.20-17.52.12:032][570]LogMetaData: Removing '/Game/Blueprints/BP_Modern_R_Goal.BP_Modern_R_Goal:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_Invisible_R_Goal.PackageMetaData'
-[2017.02.20-17.52.12:032][570]LogMetaData: Removing '/Game/Blueprints/BP_Modern_R_Goal.BP_Modern_R_Goal:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_Invisible_R_Goal.PackageMetaData'
-[2017.02.20-17.52.12:032][570]LogMetaData: Removing '/Game/Blueprints/BP_Modern_R_Goal.BP_Modern_R_Goal:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_Invisible_R_Goal.PackageMetaData'
-[2017.02.20-17.52.12:054][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Modern_R_Goal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_R_Goal.uasset" SILENT=true
-[2017.02.20-17.52.12:065][570]LogSavePackage: Save=10.62ms
-[2017.02.20-17.52.12:065][570]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Modern_R_GoalCB22ED8E4677DA38F4E03FBACBCE3B54.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_R_Goal.uasset'
-[2017.02.20-17.52.12:067][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_R_Goal.uasset
-[2017.02.20-17.52.38:314][303]LogEditorViewport: Clicking on Actor (context menu): BP_R_Goal_C (BP_R_Goal)
-[2017.02.20-17.52.42:439][724]LogEditorActor: Deleted Actor: BP_R_Goal_C
-[2017.02.20-17.52.42:453][724]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2017.02.20-17.52.44:327][947]LogEditorViewport: Clicking on Actor (context menu): BP_Modern_R_Goal_C (BP_Modern_R_Goal)
-[2017.02.20-17.52.58:139][309]LogMetaData: Removing '/Game/Blueprints/BP_Modern_L_Goal.SKEL_BP_Modern_L_Goal_C' ref from Metadata '/Game/Blueprints/BP_Modern_R_Goal_2.PackageMetaData'
-[2017.02.20-17.52.58:139][309]LogMetaData: Removing '/Game/Blueprints/BP_Modern_L_Goal.BP_Modern_L_Goal_C' ref from Metadata '/Game/Blueprints/BP_Modern_R_Goal_2.PackageMetaData'
-[2017.02.20-17.52.58:155][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Modern_L_Goal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_L_Goal.uasset" SILENT=true
-[2017.02.20-17.52.58:162][309]LogSavePackage: Save=7.01ms
-[2017.02.20-17.52.58:162][309]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Modern_L_Goal996EB0C04C1199E60427F7B821775E7C.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_L_Goal.uasset'
-[2017.02.20-17.52.58:165][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_L_Goal.uasset
-[2017.02.20-17.53.24:256][965]LogEditorViewport: Clicking Background
-[2017.02.20-17.53.31:173][795]LogEditorViewport: Clicking on Actor (context menu): BP_EnemyPaddle_C (BP_EnemyPaddle)
-[2017.02.20-17.53.33:883][ 92]LogEditorViewport: Clicking on Actor (context menu): BP_L_Goal_C (BP_L_Goal)
-[2017.02.20-17.53.38:972][628]LogEditorActor: Deleted Actor: BP_L_Goal_C
-[2017.02.20-17.53.38:988][628]LogEditorActor: Deleted 1 Actors (0.016 secs)
-[2017.02.20-17.53.54:089][232]LogEditorViewport: Clicking on Actor (context menu): BP_Modern_L_Goal_C (BP_Modern_L_Goal)
-[2017.02.20-17.53.55:379][371]LogEditorViewport: Clicking Background
-[2017.02.20-17.53.56:030][439]LogSavePackage: Save=61.76ms
-[2017.02.20-17.53.56:030][439]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main5602442349C5726C0040ACB3BC89DF1B.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-17.53.56:032][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-17.56.42:746][553]LogMetaData: Removing '/Game/Blueprints/BP_Modern_T_Goal.BP_Modern_T_Goal_C' ref from Metadata '/Game/Blueprints/BP_Modern_R_Goal_2.PackageMetaData'
-[2017.02.20-17.56.42:746][553]LogMetaData: Removing '/Game/Blueprints/BP_Modern_T_Goal.SKEL_BP_Modern_T_Goal_C' ref from Metadata '/Game/Blueprints/BP_Modern_R_Goal_2.PackageMetaData'
-[2017.02.20-17.56.42:761][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Modern_T_Goal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_T_Goal.uasset" SILENT=true
-[2017.02.20-17.56.42:768][553]LogSavePackage: Save=6.93ms
-[2017.02.20-17.56.42:768][553]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Modern_T_Goal932D35F54DF14AAB938540A65C51875E.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_T_Goal.uasset'
-[2017.02.20-17.56.42:770][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_T_Goal.uasset
-[2017.02.20-17.57.01:298][489]LogEditorViewport: Clicking Background
-[2017.02.20-17.57.02:593][644]LogEditorViewport: Clicking on Actor (LMB): BP_Modern_T_Goal_C (BP_Modern_T_Goal)
-[2017.02.20-17.57.24:235][188]LogEditorViewport: Clicking on Actor (LMB): BP_Modern_T_Goal_C (BP_Modern_T_Goal)
-[2017.02.20-17.57.48:236][712]LogSavePackage: Save=62.82ms
-[2017.02.20-17.57.48:236][712]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_MainDDCC2C164570431706EB358B8E68F247.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-17.57.48:238][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-17.57.57:172][660]LogEditorViewport: Clicking Background
-[2017.02.20-17.58.13:456][421]LogMetaData: Removing '/Game/Blueprints/BP_Modern_B_Goal.SKEL_BP_Modern_B_Goal_C' ref from Metadata '/Game/Blueprints/BP_Modern_T_Goal_2.PackageMetaData'
-[2017.02.20-17.58.13:456][421]LogMetaData: Removing '/Game/Blueprints/BP_Modern_B_Goal.BP_Modern_B_Goal_C' ref from Metadata '/Game/Blueprints/BP_Modern_T_Goal_2.PackageMetaData'
-[2017.02.20-17.58.13:470][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Modern_B_Goal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_B_Goal.uasset" SILENT=true
-[2017.02.20-17.58.13:478][421]LogSavePackage: Save=7.14ms
-[2017.02.20-17.58.13:478][421]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Modern_B_Goal5E62C468435EDAAC274A62BB4EE5A2F3.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_B_Goal.uasset'
-[2017.02.20-17.58.13:480][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_B_Goal.uasset
-[2017.02.20-17.58.37:564][901]LogSavePackage: Save=63.64ms
-[2017.02.20-17.58.37:564][901]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_MainDD1044EF494478A1CEAB449DE48823FC.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-17.58.37:566][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-17.58.45:104][697]LogTemp: Repeting last play command: Simulate
-[2017.02.20-17.58.45:112][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main' with GeneratedClass '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main_C' with ClassGeneratedBy '/Game/Levels/ModernPong_P1_Main.ModernPong_P1_Main:PersistentLevel.ModernPong_P1_Main'
-[2017.02.20-17.58.45:112][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.20-18.01.26:440][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Modern_T_Goal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_T_Goal.uasset" SILENT=true
-[2017.02.20-18.01.26:448][998]LogSavePackage: Save=5.01ms
-[2017.02.20-18.01.26:448][998]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Modern_T_Goal4C33BFED4D76E0AD0DE268998205946A.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_T_Goal.uasset'
-[2017.02.20-18.01.26:449][998]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_T_Goal.uasset
-[2017.02.20-18.01.30:584][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Modern_B_Goal" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_B_Goal.uasset" SILENT=true
-[2017.02.20-18.01.30:591][337]LogSavePackage: Save=4.98ms
-[2017.02.20-18.01.30:591][337]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_Modern_B_GoalC7B81B4E4C00D0D38C7E699065FC667F.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_B_Goal.uasset'
-[2017.02.20-18.01.30:593][337]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_Modern_B_Goal.uasset
-[2017.02.20-18.03.07:078][431]BlueprintLog: New page: Compile BP_RB_Pillar
-[2017.02.20-18.03.09:722][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_RB_Pillar" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_RB_Pillar.uasset" SILENT=true
-[2017.02.20-18.03.09:734][693]LogSavePackage: Save=10.73ms
-[2017.02.20-18.03.09:734][693]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/BP_RB_Pillar00F7267E4D758AFA5BD6A6A80D7CEF0D.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_RB_Pillar.uasset'
-[2017.02.20-18.03.09:735][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Blueprints/BP_RB_Pillar.uasset
-[2017.02.20-18.03.15:697][263]LogActorFactory: Actor Factory created pillars
-[2017.02.20-18.03.18:233][556]LogActorFactory: Actor Factory created pillars
-[2017.02.20-18.03.31:277][967]LogActorFactory: Actor Factory created pillars
-[2017.02.20-18.03.31:988][ 51]LogActorFactory: Actor Factory created pillars
-[2017.02.20-18.04.27:991][738]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pillars)
-[2017.02.20-18.04.28:621][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pillars)
-[2017.02.20-18.04.43:487][406]Cmd: ACTOR SELECT ALL
-[2017.02.20-18.04.44:844][555]LogEditorViewport: Clicking Background
-[2017.02.20-18.04.45:536][635]Cmd: TRANSACTION UNDO
-[2017.02.20-18.04.45:536][635]LogEditorTransaction: Undo Clicking Background
-[2017.02.20-18.04.45:782][655]Cmd: TRANSACTION UNDO
-[2017.02.20-18.04.45:782][655]LogEditorTransaction: Undo Select All
-[2017.02.20-18.04.46:016][668]Cmd: TRANSACTION UNDO
-[2017.02.20-18.04.46:016][668]LogEditorTransaction: Undo Scale Actors
-[2017.02.20-18.04.46:292][696]Cmd: TRANSACTION UNDO
-[2017.02.20-18.04.46:292][696]LogEditorTransaction: Undo Scale Actors
-[2017.02.20-18.04.47:568][832]Cmd: TRANSACTION UNDO
-[2017.02.20-18.04.47:568][832]LogEditorTransaction: Undo Scale Actors
-[2017.02.20-18.04.48:165][894]Cmd: TRANSACTION UNDO
-[2017.02.20-18.04.48:165][894]LogEditorTransaction: Undo Scale Actors
-[2017.02.20-18.06.17:704][625]LogSavePackage: Save=63.05ms
-[2017.02.20-18.06.17:704][625]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_MainD42405D147A1B4DFBE6397B3A4E045BB.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-18.06.17:707][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-18.09.14:563][358]LogStaticMesh: Building static mesh pillars...
-[2017.02.20-18.09.14:567][358]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/pillars.pillars
-[2017.02.20-18.09.18:516][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-18.09.18:526][709]LogSavePackage: Save=7.44ms
-[2017.02.20-18.09.18:526][709]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars519E4E424C0090F5DB31A5B88411BD58.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-18.09.18:529][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-18.09.57:921][584]LogStaticMesh: Building static mesh pillars...
-[2017.02.20-18.09.57:925][584]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/pillars.pillars
-[2017.02.20-18.10.00:304][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-18.10.00:314][773]LogSavePackage: Save=7.47ms
-[2017.02.20-18.10.00:314][773]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars65A106D049CC725BC7579FB59075E8BB.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-18.10.00:317][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-18.10.10:268][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-18.10.10:271][711]LogSavePackage: Save=1.56ms
-[2017.02.20-18.10.10:271][711]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars8D5F4593494DEA28C45F2D800AFD3933.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-18.10.10:273][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-18.10.45:736][506]LogStaticMesh: Building static mesh pillars...
-[2017.02.20-18.10.45:740][506]LogStaticMesh: Built static mesh [0.00s] /Game/StaticMeshes/pillars.pillars
-[2017.02.20-18.10.47:668][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StaticMeshes/pillars" FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset" SILENT=true
-[2017.02.20-18.10.47:678][659]LogSavePackage: Save=7.78ms
-[2017.02.20-18.10.47:678][659]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/pillars1BC2DABA4992DC34F1B24D9744318696.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset'
-[2017.02.20-18.10.47:680][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/StaticMeshes/pillars.uasset
-[2017.02.20-18.11.32:371][843]LogSavePackage: Save=63.00ms
-[2017.02.20-18.11.32:371][843]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_MainDF34F5E84AC3575282A9AC87928E2169.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-18.11.32:374][843]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
-[2017.02.20-18.11.42:180][591]LogSavePackage: Save=64.27ms
-[2017.02.20-18.11.42:180][591]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/UE4_Pong/Saved/ModernPong_P1_Main314C3BB64E2A5D712298BAA95394E096.tmp' to '../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap'
-[2017.02.20-18.11.42:181][591]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/ModernPong_P1_Main.umap
+[2017.02.22-11.15.41:674][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.22-11.15.41:674][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.22-11.15.41:687][  0]LogInit: Computer: NICOLAS-PCFIXE
+[2017.02.22-11.15.41:687][  0]LogInit: User: Nicolas
+[2017.02.22-11.15.41:687][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.22-11.15.41:687][  0]LogInit: High frequency timer resolution =3.914199 MHz
+[2017.02.22-11.15.41:687][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.22-11.15.41:687][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.22-11.15.41:687][  0]LogMemory: Process Physical Memory: 265.86 MB used, 265.86 MB peak
+[2017.02.22-11.15.41:687][  0]LogMemory: Process Virtual Memory: 265.45 MB used, 265.45 MB peak
+[2017.02.22-11.15.41:687][  0]LogMemory: Physical Memory: 4565.36 MB used,  11767.09 MB free, 16332.45 MB total
+[2017.02.22-11.15.41:687][  0]LogMemory: Virtual Memory: 664.88 MB used,  11767.09 MB free, 8388608.00 MB total
+[2017.02.22-11.15.41:777][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.02.22-11.15.42:194][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.22-11.15.42:582][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.02.22-11.15.42:582][  0]LogD3D11RHI:       8085/0/7910 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.02.22-11.15.42:582][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.22-11.15.42:586][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.22-11.15.42:586][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.22-11.15.42:586][  0]LogWindows: EnumDisplayDevices:
+[2017.02.22-11.15.42:586][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.02.22-11.15.42:586][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.22-11.15.42:586][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.22-11.15.42:586][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.22-11.15.42:586][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.02.22-11.15.42:586][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.02.22-11.15.42:586][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.02.22-11.15.42:586][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.02.22-11.15.42:586][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.02.22-11.15.42:586][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.02.22-11.15.42:586][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.02.22-11.15.42:586][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.22-11.15.42:955][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.22-11.15.42:978][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.22-11.15.42:978][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/UE4_Pong/Intermediate/Shaders/WorkingDirectory/8228/).
+[2017.02.22-11.15.42:978][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicolas/AppData/Local/Temp/UnrealShaderWorkingDir/64C4C1BD44789D78AF43F9A380E1D8E8/'.
+[2017.02.22-11.15.42:978][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.22-11.15.43:914][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.22-11.15.43:947][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.22-11.15.43:980][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.22-11.15.44:013][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.22-11.15.44:048][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.22-11.15.44:081][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.22-11.15.44:114][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.22-11.15.44:147][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.22-11.15.44:173][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.22-11.15.44:207][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.22-11.15.44:239][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.22-11.15.44:271][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.22-11.15.44:302][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.22-11.15.44:334][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.22-11.15.44:366][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.22-11.15.44:430][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.22-11.15.44:430][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.22-11.15.44:451][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.22-11.15.44:504][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.22-11.15.44:523][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.22-11.15.44:554][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.22-11.15.44:586][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.22-11.15.44:617][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.22-11.15.44:652][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.22-11.15.44:652][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.22-11.15.44:874][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.22-11.15.44:908][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/Nicolas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.22-11.15.44:908][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nicolas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.22-11.15.44:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/UE4_Pong/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.22-11.15.44:908][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.22-11.15.44:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal Projects/UE4_Pong/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.22-11.15.44:908][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.22-11.15.44:920][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.22-11.15.44:931][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicolas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.22-11.15.45:350][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.22-11.15.45:352][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.22-11.15.45:486][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.22-11.15.45:514][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.22-11.15.45:542][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.22-11.15.45:542][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.22-11.15.45:542][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.22-11.15.45:887][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: ue4_pong, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1845193093
+[2017.02.22-11.15.45:928][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
+[2017.02.22-11.15.45:952][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.014855 seconds
+[2017.02.22-11.15.45:956][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.22-11.15.45:956][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.22-11.15.45:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.22-11.15.45:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.22-11.15.46:371][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.22-11.15.46:371][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.22-11.15.46:371][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.22-11.15.46:910][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.22-11.15.46:934][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.22-11.15.47:158][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.22-11.15.47:380][  0]SourceControl: Info Source control is disabled
+[2017.02.22-11.15.47:397][  0]SourceControl: Info Source control is disabled
+[2017.02.22-11.15.47:423][  0]SourceControl: Info Source control is disabled
+[2017.02.22-11.15.47:448][  0]SourceControl: Info Source control is disabled
+[2017.02.22-11.15.48:136][  0]LogEngine: Initializing Engine...
+[2017.02.22-11.15.48:136][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.22-11.15.48:294][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.22-11.15.48:307][  0]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.22-11.15.48:311][  0]LogInit: FAudioDevice initialized.
+[2017.02.22-11.15.48:328][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Nicolas/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.22-11.15.48:331][  0]LogInit: Texture streaming: Enabled
+[2017.02.22-11.15.48:437][  0]LogInit: Transaction tracking system initialized
+[2017.02.22-11.15.48:630][  0]BlueprintLog: New page: Editor Load
+[2017.02.22-11.15.49:091][  0]LocalizationService: Info Localization service is disabled
+[2017.02.22-11.15.49:449][  0]LogConsoleResponse:Display: 
+[2017.02.22-11.15.49:546][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.22-11.15.49:546][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.22-11.15.49:617][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Content/' took 0.01s
+[2017.02.22-11.15.50:056][  0]SourceControl: Info Source control is disabled
+[2017.02.22-11.15.50:056][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/UE4_Pong/Content/Levels/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-11.15.50:056][  0]LightingResults: New page: Lighting Build
+[2017.02.22-11.15.50:078][  0]MapCheck: New page: Map Check
+[2017.02.22-11.15.50:078][  0]LightingResults: New page: Lighting Build
+[2017.02.22-11.15.50:111][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2017.02.22-11.15.50:112][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-11.15.50:113][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-11.15.50:137][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 24.53ms to complete.
+[2017.02.22-11.15.50:137][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.081
+[2017.02.22-11.15.50:235][  0]LogCollectionManager: Loaded 1 collections in 0.001321 seconds
+[2017.02.22-11.15.50:292][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Saved/Collections/' took 0.01s
+[2017.02.22-11.15.50:292][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Content/Developers/Nicolas/Collections/' took 0.01s
+[2017.02.22-11.15.50:292][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/UE4_Pong/Content/Collections/' took 0.01s
+[2017.02.22-11.15.50:292][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.02.22-11.15.50:292][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.02.22-11.15.50:299][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2190 classes and 428 folders.
+[2017.02.22-11.15.50:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.22-11.15.50:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.22-11.15.50:325][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2017.02.22-11.15.50:357][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.02.22-11.15.50:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.02.22-11.15.50:404][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.22-11.15.50:447][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.22-11.15.50:450][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.22-11.15.50:493][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.02.22-11.15.50:493][  0]LogLoad: (Engine Initialization) Total time: 10.30 seconds
+[2017.02.22-11.15.50:493][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.02.22-11.15.50:493][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.22-11.15.50:493][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.22-11.15.50:832][  0]LogOcInput: OculusInput pre-init called
